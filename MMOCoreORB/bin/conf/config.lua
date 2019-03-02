@@ -143,7 +143,7 @@ ZonesEnabled = {
 
 
 -- directory of tres with live.cfg
-TrePath = "/home/swgemu/workspace/tre"
+TrePath = "/home/wnofer/workspace/tre"
 
 TreFiles = {
 	"mtg_patch_023.tre",
@@ -213,4 +213,3 @@ local localFile = loadfile("conf/config-local.lua")
 if (localFile ~= nil) then
   localFile()
 end
-
